@@ -1,6 +1,6 @@
 {
     "repositories": {
-        "mledezma/tortilla": {
+        "drupal/tortilla": {
             "type": "vcs",
             "url": "https://github.com/mledezma/tortilla.git"
         }
@@ -50,7 +50,7 @@
         "drupal/view_password": "^6.0.5",
         "drupal/easy_email_theme": "^1.1.0",
         "drupal/gin": "^5.0.12",
-        "mledezma/tortilla": "*"
+        "drupal/tortilla": "*"
     },
     "type": "drupal-recipe",
     "name": "drupal/taco",
