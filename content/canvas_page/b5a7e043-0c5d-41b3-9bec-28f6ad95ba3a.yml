@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: canvas_page
+  uuid: b5a7e043-0c5d-41b3-9bec-28f6ad95ba3a
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  owner:
+    -
+      target_id: 1
+  title:
+    -
+      value: Test
+  components:
+    -
+      uuid: 7998e77b-5302-48ec-ac58-ed898582b7d1
+      component_id: js.test
+      inputs: {  }
+  path:
+    -
+      alias: /test
+      langcode: en
+  revision_translation_affected:
+    -
+      value: true

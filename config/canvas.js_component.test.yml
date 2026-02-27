@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies: {  }
+machineName: test
+name: Test
+required: {  }
+props: {  }
+slots: {  }
+js:
+  original: |
+    // See https://project.pages.drupalcode.org/canvas/ for documentation on how to build a code component
+
+    const Component = ({
+      text = "Test",
+    }) => {
+      return (
+        <div className="text-3xl">
+          {text}
+        </div>
+      );
+    };
+
+    export default Component;
+  compiled: |
+    // See https://project.pages.drupalcode.org/canvas/ for documentation on how to build a code component
+    import { jsx as _jsx } from "react/jsx-runtime";
+    const Component = ({ text = "Test" })=>{
+        return /*#__PURE__*/ _jsx("div", {
+            className: "text-3xl",
+            children: text
+        });
+    };
+    export default Component;
+css:
+  original: ''
+  compiled: |
+    /*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
+dataDependencies: {  }

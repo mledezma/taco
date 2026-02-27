@@ -1,0 +1,10 @@
+uuid: ddd20b90-1287-47ee-95cc-813628fe6d47
+langcode: en
+status: true
+dependencies: {  }
+name: Other
+configEntityTypeId: component
+weight: 0
+items:
+  - js.test
+  - sdc.navigation.title
