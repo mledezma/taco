@@ -2,7 +2,7 @@
     "repositories": {
         "drupal/tortilla": {
             "type": "vcs",
-            "url": "https://github.com/mledezma/tortilla.git"
+            "url": "https://github.com/mledezma/tortilla"
         }
     },
     "require": {
